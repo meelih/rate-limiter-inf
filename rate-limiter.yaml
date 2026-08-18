@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rate-limiter
-          image: zebramaschine/rate-limiter:v1
+          image: zebramaschine/rate-limiter:v2
           ports:
             - containerPort: 80
           imagePullPolicy: IfNotPresent 
